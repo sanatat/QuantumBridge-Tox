@@ -1,0 +1,30 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Original datasets, intermediate data and potential private assay tables
+/data/*
+!/data/README.md
+*.h5
+*.hdf5
+
+# Machine-specific experiment outputs, model weights and logs
+/results/
+/logs/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Accidental archives, caches and system files
+*.tar.gz
+*.zip
+.DS_Store
+
+# Keep small documentation, figures and source scripts committed.

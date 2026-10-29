@@ -1,0 +1,9 @@
+# Python 3.12 used for the documented local v0.8-v0.9 runs.
+# Tested package bounds are suggestions; preserve `pip freeze` for exact replication.
+numpy>=1.26
+pandas>=2.1
+rdkit>=2024.3
+scikit-learn>=1.4
+scipy>=1.11
+torch>=2.2
+matplotlib>=3.7
